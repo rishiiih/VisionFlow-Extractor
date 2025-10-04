@@ -1,0 +1,175 @@
+.delete-btn {
+  background: linear-gradient(90deg, #ff6464 0%, #b23a3a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.1em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0.5em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(180,60,60,0.08);
+}
+.delete-btn:hover {
+  background: linear-gradient(90deg, #d32f2f 0%, #b23a3a 100%);
+  box-shadow: 0 2px 8px rgba(180,60,60,0.13);
+}
+/* src/App.css */
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(120deg, #f4f7f9 0%, #e9eefa 100%);
+  color: #222;
+  margin: 0;
+}
+
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100vw;
+  background: linear-gradient(120deg, #f4f7f9 0%, #e9eefa 100%);
+}
+
+.app-header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #3a3a7c;
+  margin-bottom: 0.2em;
+}
+.subtitle {
+  color: #5a5a8c;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2vw 1rem 2vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upload-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.07);
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.file-input {
+  font-size: 1rem;
+  padding: 0.4em 0.5em;
+}
+.primary-btn {
+  background: linear-gradient(90deg, #646cff 0%, #3a3a7c 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(60,60,120,0.08);
+}
+.primary-btn:disabled {
+  background: #bfc2e0;
+  cursor: not-allowed;
+}
+.primary-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #535bf2 0%, #3a3a7c 100%);
+  box-shadow: 0 2px 8px rgba(60,60,120,0.13);
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #fff0f0;
+  border: 1px solid #f8bcbc;
+  padding: 0.7em 1.2em;
+  border-radius: 8px;
+  margin: 1em 0 1.5em 0;
+  font-size: 1.05em;
+}
+
+.invoice-table-section {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.07);
+  padding: 2rem 1rem 1.5rem 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.invoice-table-section h2 {
+  margin-top: 0;
+  color: #3a3a7c;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.table-wrapper {
+  overflow-x: auto;
+}
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background: #f9faff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 1em;
+}
+.invoice-table th, .invoice-table td {
+  padding: 0.8em 1em;
+  text-align: left;
+}
+.invoice-table th {
+  background: #e9eefa;
+  color: #3a3a7c;
+  font-weight: 700;
+  border-bottom: 2px solid #d1d7e9;
+}
+.invoice-table td {
+  border-bottom: 1px solid #e3e6f0;
+}
+.invoice-table tr:last-child td {
+  border-bottom: none;
+}
+.invoice-table a {
+  color: #646cff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.invoice-table a:hover {
+  color: #3a3a7c;
+}
+
+.app-footer {
+  background: #f4f7f9;
+  color: #888;
+  text-align: center;
+  padding: 1.2rem 0 1.2rem 0;
+  font-size: 1rem;
+  border-top: 1px solid #e3e6f0;
+}
