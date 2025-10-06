@@ -16,6 +16,7 @@ Database: SQLite
 
 # Deployment:
 Backend: Render
+
 Frontend: Vercel
 
 # Features
