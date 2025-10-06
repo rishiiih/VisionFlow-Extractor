@@ -3,11 +3,15 @@ VisionFlow Extractor is a full-stack web application designed to automate the pr
 This project was built to demonstrate a modern, end-to-end workflow using Python for the backend, React for the frontend, and various AI/ML tools for the core logic.
 
 # Tech Stack
-Frontend: React (Vite), JavaScript (JSX), CSS
+Frontend: React (Vite), CSS
+
 Backend: Python, FastAPI
+
 AI / Machine Learning:
 LLM: Groq with Llama 3 (llama-3.1-8b-instant)
+
 OCR: EasyOCR
+
 Database: SQLite
 
 # Deployment:
