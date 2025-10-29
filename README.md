@@ -12,13 +12,6 @@ LLM: Groq with Llama 3 (llama-3.1-8b-instant)
 
 OCR: EasyOCR
 
-Database: SQLite
-
-# Deployment:
-Backend: Render
-
-Frontend: Vercel
-
 # Features
 File Upload: A clean, simple interface for uploading invoice images.
 Automated OCR: Automatically reads and digitizes text from the uploaded image.
